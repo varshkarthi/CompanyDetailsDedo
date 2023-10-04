@@ -18,11 +18,17 @@ public class CompanyInfo {
 		System.out.println("Company Mobile : 9965691225");
 	}
 
+	private void companyLAN() {
+		System.out.println("Company LAN ; 044-0252246");
+	}
+
 	public static void main(String[] args) {
 		CompanyInfo c = new CompanyInfo();
 		c.companyName();
 		c.companyId();
 		c.companyAddress();
 		c.companyMobile();
+		c.companyLAN();
+
 	}
 }
